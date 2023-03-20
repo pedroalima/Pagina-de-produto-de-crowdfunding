@@ -1,0 +1,21 @@
+@import url("/assets/style/header.css");
+@import url("/assets/style/main.css");
+@import url("/assets/style/flex.css");
+
+:root {
+    --main-font: "Commissioner";
+    --moderate-cyan:hsl(176, 50%, 47%);
+    --dark-cyan: hsl(176, 72%, 28%);
+    --black: hsl(0, 0%, 0%);
+    --dark-gray: hsl(0, 0%, 48%);
+    --light-gray: hsl(0, 0%, 81%);
+}
+
+body {
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+    background-image: url("/assets/img/image-hero-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

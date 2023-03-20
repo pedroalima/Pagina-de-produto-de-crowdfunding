@@ -1,0 +1,12 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-mobile__list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
