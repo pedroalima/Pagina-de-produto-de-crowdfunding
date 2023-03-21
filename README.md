@@ -40,7 +40,7 @@ Os usuários devem ser capazes de:
 
 - [x] Preparativos do layout com mobile-first 
 - [x] Navbar
-- [ ] Product section
+- [x] Product section
 - [ ] Metrics section
 - [ ] About section
 - [ ] Navbar menu
