@@ -1,12 +1,28 @@
 
+/* Navegador */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.menu-mobile__list {
+    /* Conteúdo do menu mobile */
+    .menu-mobile__list {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+/* Product */
+.product__content {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
+}
+
+.product__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
