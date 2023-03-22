@@ -1,17 +1,22 @@
+
 /* Product */
-header {
+
+main {
     position: relative;
 }
 
-.product {
+.container {
     background: var(--white);
-    margin: 0 1.5rem;
     border-radius: 8px;
     text-align: center;
     padding: 3rem 1.2rem 2rem 1.2rem;
-    position: absolute;
-    top: 246px;
     border: 1px solid #e6e6e6;
+    width: 76vw;
+}
+
+.product {
+    position: absolute;
+    top: -55px;
 }
 
 .product__content {
@@ -23,15 +28,18 @@ header {
     top: -80px;
 }
 
-.product__title {
+.titles {
     color: var(--black);
     font-size: 22px;
     font-weight: 700;
 }
 
-.product__text {
+.texts {
     color: var(--dark-gray);
     font-size: 14px;
+}
+
+.product__text {
     margin: 1.4rem 0;
 }
 
@@ -50,4 +58,34 @@ header {
     border: none;
     background: none;
     cursor: pointer;
+}
+
+
+/* Metrics */
+
+.metrics {
+    margin-top: 44vh;
+}
+
+.metrics__title {
+    font-size: 28px;
+}
+
+.metrics__text {
+    margin: 0.8em 0;
+}
+
+.barra {
+    margin: 1.5rem auto 0;
+    width: 70vw;
+    height: 2vh;
+    background: #eeeded;
+    border-radius: 8px;
+}
+
+.barra-item {
+    width: 79%;
+    height: 2vh;
+    background: var(--moderate-cyan);
+    border-radius: 8px;
 }

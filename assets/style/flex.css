@@ -1,4 +1,10 @@
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Navegador */
 .navbar {
     display: flex;
@@ -22,7 +28,7 @@
 
 .product__buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    
+    width: 76vw;
 }
