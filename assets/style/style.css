@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
 @import url("/assets/style/header.css");
 @import url("/assets/style/main.css");
 @import url("/assets/style/flex.css");
 
 :root {
-    --main-font: "Commissioner";
+    --main-font: 'Commissioner', sans-serif;
     --moderate-cyan:hsl(176, 50%, 47%);
     --dark-cyan: hsl(176, 72%, 28%);
     --black: hsl(0, 0%, 0%);
@@ -13,11 +14,13 @@
 }
 
 body {
+    box-sizing: border-box;
     font-family: var(--main-font);
     font-size: 16px;
     font-weight: 400;
     background: var(--light-gray);
     line-height: 24px;
+    position: relative;
 }
 
 header {
@@ -25,4 +28,11 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 54vh;
+}
+
+main {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -0%);
 }

@@ -1,9 +1,4 @@
-
 /* Product */
-
-main {
-    position: relative;
-}
 
 .container {
     background: var(--white);
@@ -15,17 +10,12 @@ main {
 }
 
 .product {
-    position: absolute;
-    top: -55px;
-}
-
-.product__content {
     position: relative;
 }
 
 .product__picture {
     position: absolute;
-    top: -80px;
+    top: -30px;
 }
 
 .titles {
@@ -37,10 +27,6 @@ main {
 .texts {
     color: var(--dark-gray);
     font-size: 14px;
-}
-
-.product__text {
-    margin: 1.4rem 0;
 }
 
 .product__button {
@@ -63,20 +49,12 @@ main {
 
 /* Metrics */
 
-.metrics {
-    margin-top: 44vh;
-}
-
 .metrics__title {
     font-size: 28px;
 }
 
-.metrics__text {
-    margin: 0.8em 0;
-}
-
 .barra {
-    margin: 1.5rem auto 0;
+    margin: 0.5rem auto 0;
     width: 70vw;
     height: 2vh;
     background: #eeeded;
@@ -88,4 +66,77 @@ main {
     height: 2vh;
     background: var(--moderate-cyan);
     border-radius: 8px;
+}
+
+
+/* About */
+
+.about {
+    text-align: start;
+}
+
+.about__title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.about__description {
+    font-size: 14.5px;
+    color: var(--dark-gray);
+}
+
+.about__item {
+    background: var(--white);
+    border-radius: 8px;
+    padding: 1.5rem 1.2rem;
+    border: 1px solid #e6e6e6;
+}
+
+.about__item-titles {
+    font-weight: 700;
+}
+
+.about__item-title {
+    font-size: 16px;
+    color: var(--black);
+}
+
+.about__item-subtitle {
+    font-size: 15px;
+    color: var(--moderate-cyan);
+}
+
+.about__item-description {
+    font-size: 15px;
+    color: var(--dark-gray);
+}
+
+.about__item-value {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about__item-left {
+    color: var(--dark-gray);
+    font-size: 14px;
+}
+
+.about__item-button {
+    padding: 1.2em 3em;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 15px;
+    background: var(--moderate-cyan);
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.about__item--disabled {
+    opacity: 0.5;
+}
+
+.about__item-button--disabled {
+    background: var(--dark-gray);
+    cursor: default;
 }
