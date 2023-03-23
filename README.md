@@ -26,6 +26,7 @@ Os usuários devem ser capazes de:
 <html>
     <h4>Layout mobile</h4>
     <img src="./assets/img/screenshot-mobile.png" width="300px">
+    <!--
     <h4></h4>
     <img src="" width="300px">
     <h4></h4>
@@ -34,6 +35,7 @@ Os usuários devem ser capazes de:
     <img src="" width="920px">
     <h4></h4>
     <img src="" width="920px">
+    -->
 </html>
 
 ## Minha caminhada
@@ -42,7 +44,7 @@ Os usuários devem ser capazes de:
 - [x] Navbar
 - [x] Product section
 - [x] Metrics section
-- [ ] About section
+- [x] About section
 - [ ] Navbar menu
 - [ ] Support modal
 - [ ] Acknowledgment modal
