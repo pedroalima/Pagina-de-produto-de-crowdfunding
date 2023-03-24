@@ -26,9 +26,9 @@ Os usuários devem ser capazes de:
 <html>
     <h4>Layout mobile</h4>
     <img src="./assets/img/screenshot-mobile.png" width="300px">
+    <h4>Menu mobile</h4>
+    <img src="./assets/img/screenshot-mobile-menu.png" width="300px">
     <!--
-    <h4></h4>
-    <img src="" width="300px">
     <h4></h4>
     <img src="" width="300px">
     <h4>Layout desktop</h4>
@@ -45,11 +45,10 @@ Os usuários devem ser capazes de:
 - [x] Product section
 - [x] Metrics section
 - [x] About section
-- [ ] Navbar menu
+- [x] Navbar menu
 - [ ] Support modal
 - [ ] Acknowledgment modal
 - [ ] Layout desktop
-- [ ] Elementos JavaScrip
 - [ ] Estado de foco dos elementos
 
 ### Propriedades
