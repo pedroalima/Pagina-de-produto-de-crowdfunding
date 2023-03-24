@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
-@import url("/assets/style/header.css");
 @import url("/assets/style/main.css");
 @import url("/assets/style/flex.css");
 
@@ -28,6 +27,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 54vh;
+    position: relative;
 }
 
 main {

@@ -1,13 +1,6 @@
-
-main {
-    justify-content: center;
-    gap: 1rem;
-}
-
-/* Navegador */
-
 main,
 .navbar,
+.menu-mobile__navbar,
 .menu-mobile__list,
 .product,
 .product__picture,
@@ -22,15 +15,6 @@ main,
 }
 
 main,
-.navbar,
-.product,
-.product__picture,
-.product__buttons,
-.metrics__list {
-    align-items: center;
-}
-
-main,
 .menu-mobile__list,
 .product,
 .product__picture,
@@ -42,11 +26,28 @@ main,
     flex-direction: column;
 }
 
-.navbar {
+main,
+.navbar,
+.product,
+.product__picture,
+.product__buttons,
+.metrics__list {
+    align-items: center;
+}
+
+main {
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+/* Navegador */
+.navbar,
+.menu-mobile__navbar {
     justify-content: space-between;
 }
 
-/* Conteúdo do menu mobile */
+    /* Conteúdo do menu mobile */
 .menu-mobile__list {
     align-items: start;
 }
@@ -62,8 +63,8 @@ main,
     width: 76vw;
 }
 
-/* Metrics */
 
+/* Metrics */
 .metrics__list {
     gap: 1rem;
 }
@@ -72,8 +73,8 @@ main,
      gap: 0.5rem;
 }
 
-/* About */
 
+/* About */
 .about,
 .about__list,
 .about__item {

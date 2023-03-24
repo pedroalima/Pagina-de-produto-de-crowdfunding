@@ -9,7 +9,7 @@
     
     <link rel="stylesheet" href="/assets/style/style.css">
 
-    <title>Crowdfunding product page </title>
+    <title>Crowdfunding product page</title>
 </head>
 <body>
     
@@ -21,15 +21,21 @@
                 <img src="./assets/img/logo.svg" alt="Logo Crowdfunding">
             </div>
 
-            <div class="menu-mobile__container">
-                <button class="menu-mobile__button">
-                    <img src="./assets/img/icon-hamburger.svg" alt="Icone de menu hambúrguer" class="menu-mobile__icon">
-                </button>
-            </div>
+            <button class="menu-mobile__button">
+                <img srcset="./assets/img/icon-hamburger.svg, ./assets/img/icon-close-menu.svg" alt="Icone de menu hambúrguer" class="menu-mobile__icon">
+            </button>
 
         </nav>
 
-        <div class="menu-mobile__content">
+        <dialog class="menu-mobile__content">
+
+            <div class="menu-mobile__navbar">
+                <img src="./assets/img/logo.svg" alt="Logo Crowdfunding">
+            
+                <button id="close-menu" class="menu-mobile__button">
+                    <img srcset="./assets/img/icon-close-menu.svg, ./assets/img/icon-close-menu.svg" alt="Icone de menu hambúrguer" class="menu-mobile__icon">
+                </button>
+            </div>
 
             <ul class="menu-mobile__list">
                 <li class="menu-mobile__item">
@@ -43,7 +49,7 @@
                 </li>
             </ul>
             
-        </div>
+        </dialog>
 
     </header>
 
@@ -148,6 +154,6 @@
         </section>
 
     </main>
-    
+    <script src="./assets/script/main.js"></script>
 </body>
 </html>
