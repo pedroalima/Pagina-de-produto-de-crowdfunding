@@ -42,14 +42,24 @@ main {
 
 
 /* Navegador */
-.navbar,
+.navbar {
+    justify-content: space-between;
+}
+
 .menu-mobile__navbar {
     justify-content: space-between;
+    align-items: center;
 }
 
     /* Conteúdo do menu mobile */
 .menu-mobile__list {
     align-items: start;
+}
+
+.menu-mobile__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -61,6 +71,29 @@ main {
 .product__buttons {
     justify-content: space-around;
     width: 76vw;
+}
+
+/* Product modal */
+.product-modal__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-modal__button-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-modal__item-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-modal__item-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
 }
 
 
