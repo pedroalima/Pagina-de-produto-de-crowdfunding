@@ -1,4 +1,4 @@
-# Seção introdutória com navegação suspensa
+# Crowdfunding product page
 Solução para criar uma página de produto de crowdfunding em HTML, CSS e JavaScript, responsiva para mobile e desktop
 
 ## Índice
@@ -46,7 +46,7 @@ Os usuários devem ser capazes de:
 - [x] Metrics section
 - [x] About section
 - [x] Navbar menu
-- [ ] Support modal
+- [x] Product modal
 - [ ] Acknowledgment modal
 - [ ] Layout desktop
 - [ ] Estado de foco dos elementos
