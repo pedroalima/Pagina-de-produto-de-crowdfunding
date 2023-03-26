@@ -30,6 +30,8 @@ Os usuários devem ser capazes de:
     <img src="./assets/img/screenshot-mobile-menu.png" width="300px">
     <h4>Modal de projetos</h4>
     <img src="./assets/img/screenshot-mobile-modal-products.png" width="300px">
+    <h4>Modal de agradecimento</h4>
+    <img src="./assets/img/screenshot-mobile-modal-acknow.png" width="300px">
     <!--
     <h4>Layout desktop</h4>
     <img src="" width="920px">
@@ -47,7 +49,7 @@ Os usuários devem ser capazes de:
 - [x] About section
 - [x] Navbar menu
 - [x] Product modal
-- [ ] Acknowledgment modal
+- [x] Acknowledgment modal
 - [ ] Layout desktop
 - [ ] Estado de foco dos elementos
 
