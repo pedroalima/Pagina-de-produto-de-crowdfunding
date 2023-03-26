@@ -15,24 +15,26 @@
     
     <header>
 
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
 
             <div class="logo">
                 <img src="./assets/img/logo.svg" alt="Logo Crowdfunding">
             </div>
 
-            <button class="menu-mobile__button">
-                <img srcset="./assets/img/icon-hamburger.svg, ./assets/img/icon-close-menu.svg" alt="Icone de menu hambúrguer" class="menu-mobile__icon">
+            <button class="menu-mobile__button" id="open-menu">
+                <img src="./assets/img/icon-hamburger.svg" alt="Icone de menu hambúrguer" class="menu-mobile__icon">
             </button>
 
         </nav>
 
-        <dialog class="menu-mobile__content">
+        <div class="fade hide" id="fade"></div>
+
+        <div class="menu-mobile__content hide" id="menu-mobile">
 
             <div class="menu-mobile__navbar">
                 <img src="./assets/img/logo.svg" alt="Logo Crowdfunding">
             
-                <button id="close-menu" class="menu-mobile__button">
+                <button class="menu-mobile__button" id="close-menu">
                     <img srcset="./assets/img/icon-close-menu.svg, ./assets/img/icon-close-menu.svg" alt="Icone de menu hambúrguer" class="menu-mobile__icon">
                 </button>
             </div>
@@ -49,7 +51,7 @@
                 </li>
             </ul>
             
-        </dialog>
+        </div>
 
     </header>
 
@@ -64,18 +66,18 @@
             <p class="product__text texts">A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
 
             <div class="product__buttons">
-                <button class="product__button">Back this projetct</button>
+                <button class="product__button" id="product__open-button">Back this projetct</button>
                 <button class="product__button-bookmark"><img class="product__icon" src="/assets/img/icon-bookmark.svg" alt=""></button>
             </div>
 
 
-            <dialog class="product__modal">
+            <dialog class="product__modal" id="modal-product">
 
                 <div class="container about">
                     
                     <div class="product-modal__header">
                         <h3 class="about__title">Back this project</h3>
-                        <button class="product-modal__button-close">
+                        <button class="product-modal__button-close" id="product__close-button">
                             <img class="product-modal__icon-close" src="./assets/img/icon-close-modal.svg" alt="Icone de fechar menu">
                         </button>
                     </div>
@@ -173,8 +175,6 @@
             </dialog>
 
         </section>
-
-
 
 
         <section class="metrics container">
