@@ -38,3 +38,12 @@ main {
     transform: translate(-50%, -0%);
     padding-bottom: 6vh;
 }
+
+@media screen and (min-width: 1340px) {
+    header {
+        background-image: url("/assets/img/image-hero-desktop.jpg");
+        height: 60vh;
+        width: 100%;
+    }
+
+}

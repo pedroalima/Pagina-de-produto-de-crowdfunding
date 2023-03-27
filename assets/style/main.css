@@ -10,7 +10,7 @@
     padding: 0.13rem;
 }
 
-    /* Conteúdo do menu mobile */
+/* Conteúdo do menu mobile */
 .menu-mobile__content,
 .fade {
     transition: 0.5s;
@@ -73,13 +73,14 @@
     background: var(--white);
     border-radius: 8px;
     text-align: center;
-    padding: 3rem 1.2rem 2rem 1.2rem;
+    padding: 2rem 1.2rem 2rem 1.2rem;
     border: 1px solid var(--mediu-gray);
     width: 76vw;
 }
 
 .product {
     position: relative;
+    padding-top: 3rem
 }
 
 .product__picture {
@@ -119,6 +120,10 @@
     cursor: pointer;
 }
 
+.product__button-bookmark span {
+    display: none;
+}
+
 /* Product modal */
 dialog {
     padding: 0;
@@ -154,10 +159,6 @@ dialog::backdrop {
 
 .product-modal__item-header input[type="radio"]:checked {
     background-image: radial-gradient(var(--moderate-cyan) 40%, #FFF 50%);
-}
-
-.product-modal__container-footer {
-    display: none;
 }
 
 .product-modal__item-footer {
@@ -216,8 +217,8 @@ dialog::backdrop {
 }
 
 .barra {
-    margin: 0.5rem auto 0;
-    width: 70vw;
+    margin: 1.5rem auto 0;
+    width: 90%;
     height: 2vh;
     background: #eeeded;
     border-radius: 8px;
@@ -301,4 +302,79 @@ dialog::backdrop {
 .about__item-button--disabled {
     background: var(--dark-gray);
     cursor: default;
+}
+
+@media screen and (min-width: 1340px) {
+    .menu-desktop__link {
+        color: var(--white);
+        text-decoration: none;
+    }
+
+    .container {
+        padding: 2.5rem;
+        width: 50vw;
+    }
+
+    .titles {
+        font-size: 28px;
+    }
+    
+    .texts {
+        font-size: 16px;
+    }
+
+    .product__buttons {
+        padding: 1rem 0;
+    }
+
+    .product__button-bookmark {
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+    .product__button-bookmark img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .product__button-bookmark span {
+        display: block;
+        padding: 1.2rem 2.5rem 1.2rem 4.5rem;
+        border-radius: 32px;
+        background-color: var(--light-gray);
+        color: var(--dark-gray);
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .metrics {
+        padding-top: 3rem;
+    }
+
+    .metrics__title {
+        font-size: 34px;
+    }
+
+    .metrics__item {
+        padding: 0 3rem;
+    }
+
+    .metrics__item:nth-child(2) {
+        border-left: 1px solid var(--mediu-gray);
+        border-right: 1px solid var(--mediu-gray);
+    }
+
+    .about__description {
+        font-size: 16px;
+    }
+
+    .about__item-titles {
+        width: 100%;
+    }
+
+    .about__item {
+        padding: 2rem;
+    }
 }
