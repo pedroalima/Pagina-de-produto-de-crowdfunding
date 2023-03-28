@@ -34,10 +34,8 @@ Os usuários devem ser capazes de:
     <img src="./assets/img/screenshot-mobile-modal-acknow.png" width="300px">
     <h4>Layout desktop</h4>
     <img src="./assets/img/screenshot-desktop.png" width="920px">
-    <!--
-    <h4></h4>
-    <img src="" width="920px">
-    -->
+    <h4>Modal de agradecimento</h4>
+    <img src="./assets/img/screenshot-desktop-agradecimento.png" width="920px">
 </html>
 
 ## Minha caminhada
@@ -51,7 +49,7 @@ Os usuários devem ser capazes de:
 - [x] Product modal
 - [x] Acknowledgment modal
 - [x] Layout desktop
-- [ ] Estado de foco dos elementos
+- [x] Estado de foco dos elementos
 
 ### Propriedades
 
