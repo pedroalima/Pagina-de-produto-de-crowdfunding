@@ -120,7 +120,7 @@
     cursor: pointer;
 }
 
-.product__button-bookmark span {
+.product__button-bookmark a {
     display: none;
 }
 
@@ -142,12 +142,6 @@ dialog::backdrop {
     cursor: pointer;
 }
 
-.product-modal__item-header {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
 .product-modal__item-header input[type="radio"] {
     appearance: none;
     width: 1.5rem;
@@ -163,16 +157,21 @@ dialog::backdrop {
 
 .product-modal__item-footer {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
     border-top: 1px solid var(--mediu-gray);
     padding: 1.5em 0 0;
+}
+
+.product-modal__item-footer p {
+    width: 100%;
 }
 
 .product-modal__item-footer div {
     display: flex;
     justify-content: space-between;
     gap: 5vw;
+    width: 100%;
 }
 
 .product-modal__input {
@@ -201,14 +200,6 @@ dialog::backdrop {
     padding: 3rem 1.2rem;
     border: 1px solid var(--mediu-gray);
     width: 76vw;
-}
-
-.modal-acknowledgment__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
 }
 
 /* Seção Metrics */
@@ -259,6 +250,10 @@ dialog::backdrop {
     font-weight: 700;
 }
 
+.product-modal__item-header {
+    font-weight: 700;
+}
+
 .about__item-title {
     font-size: 16px;
     color: var(--black);
@@ -304,7 +299,14 @@ dialog::backdrop {
     cursor: default;
 }
 
+.about__item > .product-modal__item-header > input:checked {
+    border: 2px solid var(--moderate-cyan);
+}
+
 @media screen and (min-width: 1340px) {
+    
+    /* Navbar */
+    
     .menu-desktop__link {
         color: var(--white);
         text-decoration: none;
@@ -323,8 +325,23 @@ dialog::backdrop {
         font-size: 16px;
     }
 
+    /* Seção product */
+
     .product__buttons {
         padding: 1rem 0;
+    }
+
+    .product__button,
+    .product-modal__button {
+        transition: 0.5s;
+    }
+
+    .product__button:hover {
+        background-color: var(--dark-cyan);
+    }
+
+    .product-modal__button:hover {
+        background-color: var(--dark-cyan);
     }
 
     .product__button-bookmark {
@@ -339,7 +356,7 @@ dialog::backdrop {
         left: 0;
     }
 
-    .product__button-bookmark span {
+    .product__button-bookmark a {
         display: block;
         padding: 1.2rem 2.5rem 1.2rem 4.5rem;
         border-radius: 32px;
@@ -347,7 +364,10 @@ dialog::backdrop {
         color: var(--dark-gray);
         font-size: 16px;
         font-weight: 600;
+        text-decoration: none;
     }
+
+    /* Seção metrics */
 
     .metrics {
         padding-top: 3rem;
@@ -366,6 +386,8 @@ dialog::backdrop {
         border-right: 1px solid var(--mediu-gray);
     }
 
+    /* Seção about */
+
     .about__description {
         font-size: 16px;
     }
@@ -374,7 +396,47 @@ dialog::backdrop {
         width: 100%;
     }
 
+    .product-modal__item-header {
+        width: 60%;
+    }
+
     .about__item {
         padding: 2rem;
+    }
+
+    .about__item-button {
+        transition: 0.5s;
+    }
+
+    .about__item-button:hover {
+        background-color: var(--dark-cyan);
+    }
+
+    /* Seção modal product */
+
+    .product-modal {
+        padding: 3rem;
+    }
+
+    .product-modal__item-footer {
+        align-items: center;
+    }
+
+    .product-modal__item-footer p {
+        width: 30%;
+    }
+
+    .product-modal__item-footer div {
+        width: 50%;
+    }
+
+    .product-modal__input {
+        width: 2vw;
+    }
+    
+    /* Seção modal acknowledgment */
+
+    .modal-acknowledgment {
+        width: 35%;
     }
 }

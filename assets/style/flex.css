@@ -92,6 +92,8 @@ main {
 .product-modal__item-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .product-modal__item-footer {
@@ -100,6 +102,14 @@ main {
     gap: 5vw;
 }
 
+/* acknowledgment modal */
+.modal-acknowledgment__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
 
 /* Metrics */
 .metrics__list {
@@ -159,6 +169,8 @@ main {
         align-items: center;
     }
 
+    
+
     .metrics__list {
         flex-direction: row;
     }
@@ -178,5 +190,14 @@ main {
         justify-content: space-between;
         align-items: center;
         width: 100%;
+    }
+
+    .product-modal__item-header {
+        justify-content: start;
+    }
+
+    .product-modal__item-header label {
+        display: flex;
+        gap: 1rem;
     }
 }

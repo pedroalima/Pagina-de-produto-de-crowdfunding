@@ -51,7 +51,3 @@ modalAcknowOpenButton.addEventListener("click", () => {
 modalAcknowCloseButton.addEventListener("click", () => {
     modalAcknow.close()
 })
-
-/*
-const projectInput = document.querySelectorAll("input[type=radio]")
-*/
